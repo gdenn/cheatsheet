@@ -3,6 +3,7 @@
 Here are some commands and hotkeys that i use on a daily basis for the following tools / apps:
 * Tmux - session management in a single terminal window like a boss
 * Vim - most infamous and hackable terminal text based editor
+* nmcli - linux network manager 
 
 ## Glossary
 
@@ -82,6 +83,15 @@ theme i use currently [gruvbox](https://github.com/morhetz/gruvbox).
 | v | enter visual block |
 | gg | move to start of file |
 | GG | move to end of file |
+
+## nmcli
+
+| hotkey/command | description |
+| ---- | ---- |
+| nmcli c show | list all network connections |
+| nmcli c show --active | list all active connections |
+| nmcli c up <guid> | connect to network by guid |
+| ncmli c down <guid> | disconnect from network by guid |
 
 ## Suggestions?
 
